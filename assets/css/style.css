@@ -1,0 +1,26 @@
+.bg-image {
+    background-color: rgb(91, 113, 133);
+    background-image: url("../images/rainywindow.jpg");
+    background-size: cover;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+
+    /* IMPORTANT Locks the image in place for page content to scroll over */
+    background-attachment: fixed;
+} 
+
+/* page title text styling */
+.title-txt {
+    color: white;
+    text-align: center;
+}
+
+/* footer styling */
+.contact-bar {
+
+}
+
+body, html {
+    height: 100%;
+  }
