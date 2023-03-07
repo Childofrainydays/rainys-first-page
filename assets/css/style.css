@@ -1,8 +1,17 @@
-.bg-image {
-    background-color: rgb(91, 113, 133);
-    background-image: url("../images/rainywindow.jpg");
-    background-size: cover;
+/* Universal selector arributes for page border*/
+*{padding:0px;
+    margin:0px;}
+
+body, html {
     height: 100%;
+  }
+  
+.bg-image {
+    /*Background image linked here */
+    background-image: url("../images/rainywindow.jpg");
+    height: 100%;
+    background-color: rgb(91, 113, 133);
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
@@ -10,17 +19,11 @@
     background-attachment: fixed;
 } 
 
-/* page title text styling */
 .title-txt {
     color: white;
     text-align: center;
 }
 
-/* footer styling */
 .contact-bar {
 
 }
-
-body, html {
-    height: 100%;
-  }
