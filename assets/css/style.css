@@ -1,29 +1,34 @@
 /* Universal selector arributes for page border*/
-*{padding:0px;
-    margin:0px;}
+*{
+    padding:0px;
+    margin:0px;
+}
 
 body, html {
     height: 100%;
-  }
+}
   
 .bg-image {
     /*Background image linked here */
     background-image: url("../images/rainywindow.jpg");
-    height: 100%;
     background-color: rgb(91, 113, 133);
+    /*Found a neat trick for background image adjustment*/
+    background-blend-mode: multiply;
+    height: 100%;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 
-    /* IMPORTANT Locks the image in place for page content to scroll over */
+    /* Locks the image in place for page content to scroll over */
     background-attachment: fixed;
 } 
+
+.pagenav {
+    position: fixed;
+}
 
 .title-txt {
     color: white;
     text-align: center;
 }
 
-.contact-bar {
-
-}
