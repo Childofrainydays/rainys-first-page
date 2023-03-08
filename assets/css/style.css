@@ -23,16 +23,21 @@ body, html {
     background-attachment: fixed;
 } 
 
-.pagenav {
-    position: fixed;
-}
-
 .title-txt {
     color: white;
     text-align: center;
 }
 
+.pagenav {
+    position: fixed;
+}
+
+.profile-img {
+    border-radius: 50%;
+}
+
 .transparency {
+    /* Background color with alpha channel for transparency */
     background-color: rgba(255,255,255,.5);
     color: #fff;
 }
