@@ -26,10 +26,19 @@ body, html {
 .title-txt {
     color: white;
     text-align: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .pagenav {
     position: fixed;
+    right: 50%;
+}
+
+.profile-position {
+    position: fixed;
+    left: 2%;
+    top: 10%;
 }
 
 .profile-img {
@@ -40,4 +49,13 @@ body, html {
     /* Background color with alpha channel for transparency */
     background-color: rgba(255,255,255,.5);
     color: #fff;
+}
+
+.the-spaces {
+    border-radius: 20px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 5%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }
