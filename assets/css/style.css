@@ -30,14 +30,16 @@ body, html {
     display: flex;
     flex-direction: column;
     align-items: center;
+    /* A sanity-saving article: https://dev.to/luisaugusto/stop-using-fixed-headers-and-start-using-sticky-ones-1k30 */
     position: sticky;
     top: 0;
 }
 
-.pagenav, ul {
+ul, li {
     list-style: none;
-  
+    display: inline;
 }
+
 
 .profile-position {
     position: fixed;
