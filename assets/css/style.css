@@ -65,12 +65,29 @@ ul, li {
 
 .profile-position {
     position: fixed;
-    left: 2%
+    top: 10%;
+    left: 2%;
 }
 
 .profile-img {
+    position: fixed;
+    top: 120px;
+    left: 50px;
+    z-index: 1;
     border-radius: 50%;
+    width: 200px;
+    height: 200px;
 }
+
+/*Media query to keep the pofile image under control*/
+@media (max-width: 768px) {
+    .profile-img {
+      width: 100px;
+      height: 100px;
+      top: 250px;
+      left: 25px;
+    }
+  }
 
 .transparency {
     /* Background color with alpha channel for transparency */
@@ -107,8 +124,8 @@ h2 {
 }
 
 .contact-bar {
-    /*position: fixed;
-    bottom: 0;*/
+    /*position: fixed;*/
+    /*bottom: 0;*/
     margin-top: auto;
     left: 0;
     width: 100%;
