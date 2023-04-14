@@ -64,6 +64,10 @@ ul, li {
     text-decoration: none;
 } 
 
+.pagenav a:hover {
+    color: #919191;
+}
+
 .profile-position {
     position: fixed;
     top: 10%;
